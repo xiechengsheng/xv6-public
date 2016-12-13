@@ -51,3 +51,15 @@ To run xv6, install the QEMU PC simulators.  To run in QEMU, run "make qemu".
 
 To create a typeset version of the code, run "make xv6.pdf".  This
 requires the "mpage" utility.  See http://www.mesa.nl/pub/mpage/.
+
+授课视频很容易找到。这门课会接触到两个小的操作系统: xv6 和 jOS。课堂上主要讲xv6, 一个小的unix操作系统；而课程Lab分6~7个阶段让你填写jOS的关键代码。
+这门课的好处就是理论加实践，而且课程节奏很好。
+比如讲完系统调用，你就可以试着给xv6加个timer调用；讲完threads，你就可以试着给xv6加个系统调用，然后让这个系统支持线程...
+Lab实现的jOS和xv6有很多设计决策不同，对比它们你可以更好的理解什么是操作系统；当然能自己亲手写一些代码感觉会很不一样（理论怎么转换到实践）
+
+几点体会：
+homework也许比Lab更有启发性(我是这么认为的)；
+如果看过CSAPP就最好了，汇编都不用学了，shell也会写了，memory也了解了。
+6.828有个作业提交系统，只要邮箱就能注册了，然后可以互评Lab...
+
+有了一些自己的体验后，然后结合书看也许就完全不一样了。
